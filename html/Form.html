@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <!-- input text (username) -->
+        <label for="username">username: </label>
+        <input type="text" id="username">
+            <br>
+        <!-- input text berupa password (inputan akan disembunyikan jika menggunakan password) -->
+        <label for="password">password: </label>
+        <input type="password" id="password">
+            <br>
+        <!-- radio button -->
+        <!-- tambahkan atribut name="" untuk menandai satu grup, untuk menghindari memilih kedua pilihan di radio button -->
+        <input type="radio" id="pria" name="jenis kelamin"><label for="pria">pria</label>
+        <input type="radio" id="wanita" name="jenis kelamin"><label for="wanita">pria</label>
+            <br>
+        <!-- checkbox -->
+        <input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+        <input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label>
+        <input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label>
+            <br>
+        <!-- textarea -->
+        <textarea></textarea>
+            <br>
+        <!-- button -->
+        <!-- untuk button ada 3 type -->
+        <!-- submit untuk mengirim datanya-->
+        <!-- reset untuk menghapus datanya -->
+        <!-- button untuk memberi fungsi spesifik untuk tombolnya -->
+        <input type="submit" value="send"> <!-- untuk mengganti tulisannya tambahkan atribut -->
+            <br>
+        <!-- tapi tidak disarankan menggunakan tag input tapi menggunkan tag button -->
+        <button type="submit">button</button>
+            <br>
+        <!-- dropdown (select) -->
+        <select>
+            <option>Bandung</option>
+            <option>Jakarta</option>
+            <option>Jogja</option>
+        </select>
+
+    </form>
+</body>
+</html>
